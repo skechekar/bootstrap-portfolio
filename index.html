@@ -1,16 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sarah Kechekar | Web Developer</title>
     <link rel="icon" href="./assets/images/rainbow_2.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css"
+    <link rel="stylesheet" href="./assets/css/style.css"
 
 </head>
+
 <body>
+
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary customNav">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- End Navbar -->
+
+<!-- Jumbotron -->
+    <div class="p-5 mb-4 bg-body-tertiary rounded-3 pinkBackground">
+        <div class="container-fluid py-5 jumboCopy">
+            <h1 class="display-5 fw-bold">Hi, I'm Sarah!</h1>
+            <p class="col-md-12 fs-4">Front-end Web Developer</p>
+        </div>
+    </div>
+<!-- End Jumbotron -->
+
+<!-- Cards-->
+    <div class="container-fluid content" id="projects">
+        <div class="row projects">
+    <!-- Card 1 -->
+            <div class="cardContainer col-lg-3 col-md-4 col-sm-12">
+                <div class="card">
+                    <img src="./assets/images/placeholder600x400.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Name</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet...</p>
+                        <a href="#" class="btn btn-primary">Visit on GitHub</a>
+                    </div>
+                </div>
+            </div>
+    <!-- Card 2 -->
+            <div class="cardContainer col-lg-3 col-md-4 col-sm-12">
+                <div class="card">
+                    <img src="./assets/images/placeholder600x400.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Name</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet...</p>
+                        <a href="#" class="btn btn-primary">Visit on GitHub</a>
+                    </div>
+                </div>
+            </div>
+    <!-- Card 3 -->
+            <div class="cardContainer col-lg-3 col-md-4 col-sm-12">
+                <div class="card">
+                    <img src="./assets/images/placeholder600x400.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Name</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet...</p>
+                        <a href="#" class="btn btn-primary">Visit on GitHub</a>
+                    </div>
+                </div>
+            </div>
+    <!-- Card 4 -->
+            <div class="cardContainer col-lg-3 col-md-4 col-sm-12">
+                <div class="card">
+                    <img src="./assets/images/placeholder600x400.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Name</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet...</p>
+                        <a href="#" class="btn btn-primary">Visit on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- End Cards -->
+
+<!-- About -->
+    <div class="about mx-auto" id="about">
+        <h2>Little about me..</h2>
+        <p>I am a front-end web developer building projects with JavaScript, React, Bootstrap, Node.js, as well as designing my own CSS stylesheets. All my projects are published to GitHub.</p>
+    </div>
+<!-- End About -->
+
+<!-- Skills -->
+    <div class="container-fluid skills" id="skills">
+            <img src="./assets/images/htmllogo.png" alt="html logo" id="html" class="skillicon">
+            <img src="./assets/images/csslogo.png" alt="css logo" id="css" class="skillicon">
+            <img src="./assets/images/jslogo_2.png" alt="javascript logo" id="js" class="skillicon">
+            <img src="./assets/images/nodejslogo.png" alt="node.js logo" id="nodejs" class="skillicon">
+            <img src="./assets/images/reactlogo.png" alt="react logo" id="react" class="skillicon">
+            <img src="./assets/images/ui-ux.png" alt="ui and ux" id="ui-ux" class="skillicon">
+    </div>
+<!-- End Skills -->
+
+<!-- Footer/Contact -->
+    <footer class="container-fluid contact">
+        <div class="contact">
+            <a href="https://github.com/skechekar" target="_blank"><img src="./assets/images/githublogo_2.png" alt="link to github page" id="github" class="contacticon" /></a>
+            <a href="https://linkedin.com/in/skechekar" target="_blank"><img src="./assets/images/linkedinlogo.png" alt="link to linkedin profile" id="linkedin" class="contacticon" /></a>
+            <a href="mailto:skechekar@icloud.com"><img src="./assets/images/email_2.png" alt="link to email me" id="mail" class="contacticon" /></a>
+        </div>
+    </footer>
+<!-- End Footer/Contact-->
+
+
+<!-- Bootstrap Javascript -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 </body>
 </html>
 
