@@ -10,33 +10,40 @@
     <link rel="stylesheet" href="style.css"
 
 </head>
+
 <body>
 
 <!-- Navbar -->
-    <nav class="navbar bg-body-tertiary">
-        <form class="container-fluid justify-content-end">
-          <button class="btn btn-sm btn-outline-secondary" type="button">About Me</button>
-          <button class="btn btn-sm btn-outline-secondary" type="button">Projects</button>
-          <button class="btn btn-sm btn-outline-secondary" type="button">Skills</button>
-          <button class="btn btn-sm btn-outline-secondary" type="button">Contact</button>
-        </form>
-    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary customNav">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Skills</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 <!-- End Navbar -->
 
 <!-- Jumbotron -->
-    <div class="container-fluid bg-light p-5 jumbotron">
-        <h1 class="display-4">Hi, I'm Sarah</h1>
-        <p class="lead">23 year old developer from London</p>
-        <hr class="my-4">
+    <div class="p-5 mb-4 bg-body-tertiary rounded-3 pinkBackground">
+        <div class="container-fluid py-5 jumboCopy">
+            <h1 class="display-5 fw-bold">Hi, I'm Sarah!</h1>
+            <p class="col-md-12 fs-4">23 year old web developer from London</p>
+        </div>
     </div>
 <!-- End Jumbotron -->
-
-<!-- About Me -->
-    <div class="container-fluid about">
-        <h2 class="sectionHeading">About Me</h2>
-        <p>Lorem ipseum dolesjfidsuhfdsfdso spdosjfdf jfnjs dsfhuds fsuhdusfs fdsuhfs hsfd fsdkjfds jfds jgsfh dsfjdsj jsdfjh jsd jsfdsf<p>
-    </div>
-<!-- End About Me -->
 
 <!-- Cards-->
     <div class="container-fluid content">
@@ -90,16 +97,21 @@
     </div>
 <!-- End Cards -->
 
-<!-- Skills -->
+<!-- About -->
+    <div class="container-fluid about">
+        <h2 class="sectionHeading">About Me</h2>
+        <p> ksadjihushdsuaidhoasidhaduisad</p>
+<!-- End About -->
+
     <div class="container-fluid skills">
         <h2 class="sectionHeading">Skills</h2>
-        <div class="row skills">
             <img src="./assets/images/htmllogo.png" alt="html logo" id="html">
             <img src="./assets/images/csslogo.png" alt="css logo" id="css">
             <img src="./assets/images/jslogo_2.png" alt="javascript logo" id="js">
             <img src="./assets/images/nodejslogo.png" alt="node.js logo" id="nodejs">
             <img src="./assets/images/reactlogo.png" alt="react logo" id="react">
             <img src="./assets/images/ui-ux.png" alt="ui and ux" id="ui-ux">
+    </div>
 <!-- End Skills -->
 
 <!-- Footer/Contact -->
